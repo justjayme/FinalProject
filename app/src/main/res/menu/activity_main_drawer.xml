@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_sides"
+            android:icon="@drawable/breakfast"
+            android:title="Breakfast" />
+        <item
+            android:id="@+id/nav_dinner"
+            android:icon="@drawable/dinner"
+            android:title="Dinner" />
+        <item
+            android:id="@+id/nav_desserts"
+            android:icon="@drawable/desserts"
+            android:title="Desserts" />
+
+    </group>
+
+    <item android:title="Share This App">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

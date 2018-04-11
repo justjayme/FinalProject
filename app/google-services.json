@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "405161382690",
+    "firebase_url": "https://recipes-841da.firebaseio.com",
+    "project_id": "recipes-841da",
+    "storage_bucket": "recipes-841da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405161382690:android:33917a7869d66ef5",
+        "android_client_info": {
+          "package_name": "wit.ie.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405161382690-e1r2p66mk6pltqalip2vbjv7rvp6jee0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wit.ie.finalproject",
+            "certificate_hash": "d4d5ddd615859373d3429e02d6d7ac3a6a7db31e"
+          }
+        },
+        {
+          "client_id": "405161382690-b87bdhrcn50st9f8umd9b801tdqudqgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEUnK_i9vie7zEtTVNQpLKxGaocyQIxKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405161382690-b87bdhrcn50st9f8umd9b801tdqudqgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

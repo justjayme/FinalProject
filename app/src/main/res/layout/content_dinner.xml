@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageButton
+        android:id="@+id/dinner1button2"
+        android:layout_width="207dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174dp"
+        app:srcCompat="@drawable/dinner1small"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/dinner1button"
+        android:layout_width="196dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/dinner1small"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/dinner1text"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/dinner1button"
+        android:layout_centerHorizontal="true"
+        android:text="Homemade Cornish Pasties"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/dinner1text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dinner1button2"
+        android:layout_centerHorizontal="true"
+        android:text="Second Option"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/dinnerbtnView"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/dinnereditText"
+        android:layout_alignTop="@+id/dinnerbtnAdd"
+        android:text="View Dinner Notes" />
+
+    <Button
+        android:id="@+id/dinnerbtnAdd"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/dinnereditText"
+        android:layout_below="@+id/dinnereditText"
+        android:layout_marginTop="-99dp"
+        android:text="Add To Dinner Notes" />
+
+
+
+    <EditText
+        android:id="@+id/dinnereditText"
+        android:layout_width="318dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/dinnerNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="165dp"
+        android:text="Dinner Notes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+</RelativeLayout>
