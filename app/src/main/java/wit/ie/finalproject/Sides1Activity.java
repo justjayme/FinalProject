@@ -16,7 +16,7 @@ public class Sides1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.content_dessert1);
+        setContentView(R.layout.content_sides1);
     }
 }
 
