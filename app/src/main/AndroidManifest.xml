@@ -33,6 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".SidesActivity" />
         <activity android:name=".Sides1Activity" />
         <activity android:name=".DinnerActivity" />
@@ -52,6 +53,14 @@
         <activity android:name=".SidesEditDataActivity" />
         <activity android:name=".SidesListDataActivity" />
         <activity android:name=".MyCameraActivity" />
+        <activity android:name=".SplashActivity" />
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
 
 
     </application>

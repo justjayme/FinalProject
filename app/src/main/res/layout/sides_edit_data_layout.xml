@@ -24,18 +24,21 @@
         >
 
         <Button
+            android:id="@+id/sidesbtnDelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="DELETE"
-            android:id="@+id/sidesbtnDelete"/>
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="DELETE" />
+
         <Button
+            android:id="@+id/sidesbtnSave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="SAVE"
             android:layout_toRightOf="@+id/sidesbtnDelete"
-            android:id="@+id/sidesbtnSave"/>
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="SAVE" />
 
     </LinearLayout>
 

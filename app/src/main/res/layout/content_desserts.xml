@@ -36,6 +36,7 @@
         android:layout_height="35dp"
         android:layout_below="@+id/desserts1button"
         android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Homemade Simple Chocolate Brownies"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         tools:layout_editor_absoluteX="144dp"
@@ -47,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/desserts1button2"
         android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Second Option"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
@@ -56,6 +58,7 @@
         android:layout_height="70dp"
         android:layout_alignEnd="@+id/dessertseditText"
         android:layout_alignTop="@+id/dessertsbtnAdd"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="View Desserts Notes" />
 
     <Button
@@ -65,6 +68,7 @@
         android:layout_alignStart="@+id/dessertseditText"
         android:layout_below="@+id/dessertseditText"
         android:layout_marginTop="-99dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Add To Desserts Notes" />
 
 
@@ -86,6 +90,7 @@
         android:layout_centerHorizontal="true"
 
         android:layout_marginBottom="165dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Desserts Notes"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 

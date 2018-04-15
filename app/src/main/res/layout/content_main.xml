@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnView"
         android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Add To Shopping List" />
 
     <Button
@@ -41,6 +42,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="View shopping List" />
 
     <EditText
@@ -57,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/editText"
         android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Shopping List"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
@@ -67,6 +70,7 @@
         android:layout_below="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:paddingTop="20dp"
         app:srcCompat="@drawable/appicon" />
 
 </RelativeLayout>

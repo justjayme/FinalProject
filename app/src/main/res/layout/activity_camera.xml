@@ -11,11 +11,13 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
         android:paddingBottom="40dp"
         android:paddingTop="40dp"
         android:text="Save Your Recipes By Taking a Picture!"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -24,7 +26,7 @@
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="235dp"
         android:layout_weight="0"
         android:paddingTop="15dp"
         android:src="@drawable/appicon">
@@ -39,12 +41,13 @@
             android:gravity="center|bottom"
             android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="Take a Picture!">
-    </Button>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Take a Picture!"
+            android:textStyle="bold"></Button>
 
     </LinearLayout>
 
