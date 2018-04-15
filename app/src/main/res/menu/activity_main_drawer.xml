@@ -22,8 +22,8 @@
             android:title="Desserts" />
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/desserts"
-            android:title="Take a Picture!" />
+            android:icon="@drawable/camera"
+            android:title="Capture your Recipes!" />
 
     </group>
 
