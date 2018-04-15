@@ -135,6 +135,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_desserts) {
             startActivity(new Intent(MainActivity.this, DessertsActivity.class));
 
+        } else if (id == R.id.nav_camera) {
+            startActivity(new Intent(MainActivity.this, MyCameraActivity.class));
+
 
 
         } else if (id == R.id.nav_share) {
