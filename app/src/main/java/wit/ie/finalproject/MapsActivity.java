@@ -38,9 +38,38 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+
+        LatLng Boheme = new LatLng(52.2616883, -7.1838155);
+        mMap.addMarker(new MarkerOptions().position(Boheme).title("La Boheme"));
+        float zoomLevel = 15.0f; //This goes up to 21
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Boheme, zoomLevel));
+
+        LatLng Momo = new LatLng(52.2600063, -7.1825515);
+        mMap.addMarker(new MarkerOptions().position(Momo).title("Momo Restaurant"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Momo));
+
+        LatLng Cafe = new LatLng(52.2613305,-7.1701769);
+        mMap.addMarker(new MarkerOptions().position(Cafe).title("No 9 Café"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Cafe));
+
+        LatLng Bell = new LatLng(52.2617802, -7.1834672);
+        mMap.addMarker(new MarkerOptions().position(Bell).title("Bell Pepper"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Bell));
+
+        LatLng Moorings = new LatLng(52.0904593, -7.6204623);
+        mMap.addMarker(new MarkerOptions().position(Moorings).title("The Moorings"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Moorings));
+
+        LatLng Park = new LatLng(52.0917231, -7.624883);
+        mMap.addMarker(new MarkerOptions().position(Park).title("The Park Hotel"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Park));
+
+        LatLng Lawlors = new LatLng(52.0898496, -7.62445);
+        mMap.addMarker(new MarkerOptions().position(Lawlors).title("Lawlors"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Lawlors));
+
+
+
     }
 }

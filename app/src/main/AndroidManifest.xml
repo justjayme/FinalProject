@@ -51,7 +51,6 @@
         <activity android:name=".SidesEditDataActivity" />
         <activity android:name=".SidesListDataActivity" />
         <activity android:name=".MyCameraActivity" />
-        <activity android:name=".SplashActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
