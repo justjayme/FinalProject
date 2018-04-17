@@ -21,9 +21,14 @@
             android:icon="@drawable/desserts"
             android:title="Desserts" />
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/camera"
-            android:title="Capture your Recipes!" />
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/camera"
+        android:title="Capture your Recipes" />
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/maps"
+            android:title="Recommended Restaurants" />
 
     </group>
 

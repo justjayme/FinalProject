@@ -138,6 +138,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_camera) {
             startActivity(new Intent(MainActivity.this, MyCameraActivity.class));
 
+        } else if (id == R.id.nav_maps) {
+            startActivity(new Intent(MainActivity.this, MapsActivity.class));
+
 
 
         } else if (id == R.id.nav_share) {
