@@ -28,8 +28,11 @@ public class SidesActivity extends AppCompatActivity {
         sides1button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Intent = new Intent(view.getContext(), Sides1Activity.class);
+                Intent Intent = new Intent(view.getContext(), Dinner1Activity.class);
                 view.getContext().startActivity(Intent);
+
+
+
             }
         });
 
@@ -58,6 +61,13 @@ public class SidesActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SidesActivity.this, SidesListDataActivity.class);
                 startActivity(intent);
+
+
+
+
+
+
+
 
             }
         });

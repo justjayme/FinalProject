@@ -28,7 +28,7 @@ public class DessertsActivity extends AppCompatActivity {
         desserts1button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Intent = new Intent(view.getContext(), Desserts1Activity.class);
+                Intent Intent = new Intent(view.getContext(), Dinner1Activity.class);
                 view.getContext().startActivity(Intent);
             }
         });
