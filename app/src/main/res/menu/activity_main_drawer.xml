@@ -20,10 +20,16 @@
             android:id="@+id/nav_desserts"
             android:icon="@drawable/desserts"
             android:title="Desserts" />
+
         <item
         android:id="@+id/nav_camera"
         android:icon="@drawable/camera"
         android:title="Capture your Recipes" />
+
+        <item
+            android:id="@+id/nav_imgur"
+            android:icon="@drawable/imgur"
+            android:title="Upload to Imgur" />
 
         <item
             android:id="@+id/nav_maps"

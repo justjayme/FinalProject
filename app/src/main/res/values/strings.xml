@@ -10,4 +10,15 @@
     <string name="server_client_id">449751174795-qtr5rbuubgn5u9p5un9thd6c2njnf4fa.apps.googleusercontent.com</string>
     <string name="title_activity_maps">Map</string>
 
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose">Choose Image</string>
+    <string name="upload">Upload</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="notification_fail">Image failed to upload...</string>
+    <string name="notification_share_link">Share link</string>
+    <string name="notifaction_success">Successfully uploaded</string>
+    <string name="notification_progress">Uploading image...</string>
+
 </resources>

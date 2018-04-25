@@ -53,6 +53,23 @@
         <activity android:name=".MyCameraActivity" />
         <activity android:name=".EditActivity" />
 
+        <activity android:name=".aLog" />
+        <activity android:name=".Constants" />
+        <activity android:name=".ImgurActivity" />
+        <activity android:name=".IntentHelper" />
+        <activity android:name=".NetworkUtils" />
+        <activity android:name=".NotificationHelper" />
+        <activity android:name=".UploadService" />
+        <activity android:name=".Upload" />
+        <activity android:name=".DocumentHelper" />
+        <activity android:name=".ImageResponse" />
+        <activity android:name=".ImgurAPI" />
+
+
+
+
+
+
 
         <meta-data
             android:name="preloaded_fonts"
