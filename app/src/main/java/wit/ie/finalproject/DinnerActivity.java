@@ -8,11 +8,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 //This is the DinnerActivity which changes content and has a button to view a dinner recipe
 
 
 public class DinnerActivity extends AppCompatActivity {
+
+
     ImageButton dinner1button;
     DinnerDatabaseHelper dinnnermDatabaseHelper;
     private Button dinnerbtnAdd, dinnerbtnViewData;
@@ -23,6 +27,8 @@ public class DinnerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.content_dinner);
+
+
 
         dinner1button = (ImageButton) findViewById(R.id.dinner1button);
         dinner1button.setOnClickListener(new View.OnClickListener() {

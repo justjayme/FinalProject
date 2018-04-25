@@ -20,5 +20,7 @@
     <string name="notification_share_link">Share link</string>
     <string name="notifaction_success">Successfully uploaded</string>
     <string name="notification_progress">Uploading image...</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9155838288960142/1681030060
+</string>
 
 </resources>
