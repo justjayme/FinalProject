@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context="wit.ie.finalproject.ImgurActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary" />
 
     <!-- Dummy item to prevent TextView from receiving initial focus -->
     <LinearLayout
@@ -45,6 +40,7 @@
             <EditText
                 android:id="@+id/editText_upload_title"
                 style="@style/DefEditText"
+                android:fontFamily="sans-serif-smallcaps"
                 android:hint="@string/title"
                 android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
@@ -57,6 +53,7 @@
             <EditText
                 android:id="@+id/editText_upload_desc"
                 style="@style/DefEditText"
+                android:fontFamily="sans-serif-smallcaps"
                 android:hint="@string/description"
                 android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
