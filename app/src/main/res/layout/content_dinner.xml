@@ -59,7 +59,7 @@
         android:layout_alignEnd="@+id/dinnereditText"
         android:layout_alignTop="@+id/dinnerbtnAdd"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="View Dinner Notes" />
+        android:text="View Dinner    Notes" />
 
     <Button
         android:id="@+id/dinnerbtnAdd"
